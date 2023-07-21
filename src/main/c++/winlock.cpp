@@ -1,3 +1,4 @@
+#ifdef WIN32 || #ifdef _WIN32
 #include <Windows.h>
 #include <WtsApi32.h>
 #include <VersionHelpers.h>
@@ -30,3 +31,13 @@ void lockWorkstation(){
     LockWorkStation();
 }
 
+#else
+
+bool isWorkstationLocked(){
+    return false;
+}
+
+void lockWorkstation(){
+}
+
+#endif
