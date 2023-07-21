@@ -1,5 +1,17 @@
+# local env files
+.env*
+
+# IDEs
+.vscode
+
+# build artifacts and logs
+*.tsbuildinfo
 build_log.txt
-npm-debug.log
+npm-debug.log*
 build/
 node_modules/
 target/
+coverage/
+
+# Mac specific
+.DS_Store
