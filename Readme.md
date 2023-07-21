@@ -5,10 +5,11 @@ Activate the Windows lock screen (Win+L), or check if Windows is currently locke
 
 ## Requirements
 
-- [Node.js and NPM](https://nodejs.org/en/)
-- [node-gyp](https://www.npmjs.com/package/node-gyp)
+- [Node.js and NPM](https://nodejs.org/en/) (version 18.x)
+- [node-gyp](https://www.npmjs.com/package/node-gyp) (version 9.3.1)
 - [Visual Studio](https://www.visualstudio.com/downloads/) (tested on 2015 Community Edition)
-- [Windows 8.1 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-8-1-sdk)
+- [Visual Studio Code](https://code.visualstudio.com/download) (tested on 1.80)
+- [Unified Windows Platform SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) (tested on Windows 10 22H2)
 
 ## Installation
 ```bash
