@@ -1,4 +1,4 @@
-#ifdef WIN32 || #ifdef _WIN32
+#if defined(WIN32) || defined(_WIN32)
 #include <Windows.h>
 #include <WtsApi32.h>
 #include <VersionHelpers.h>
@@ -40,4 +40,4 @@ bool isWorkstationLocked(){
 void lockWorkstation(){
 }
 
-#endif
+#endif /* WIN32 || _WIN32 */
