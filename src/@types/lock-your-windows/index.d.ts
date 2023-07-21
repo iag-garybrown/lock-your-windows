@@ -1,3 +1,3 @@
 declare module 'lock-your-windows' {
-    export function lock(): void;
+  export function lock(): void;
 }

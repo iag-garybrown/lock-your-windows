@@ -1,39 +1,39 @@
 {
-    "compilerOptions": {
-      /* Language and Environment */
-      "target": "es2016",
-      "lib": [],
-  
-      /* Modules */
-      "module": "CommonJS",
-      "rootDir": "./",
-      "paths": {},
-      "moduleResolution": "node",
-      "resolveJsonModule": true,
-  
-      /* JavaScript Support */
-      "allowJs": true,
-      "checkJs": true,
-  
-      /* Emit */
-      "noEmit": true,
-  
-      /* Interop Constraints */
-      "isolatedModules": true /* If this causes issue, remove. */,
-      "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true,
-  
-      /* Type Checking */
-      "strict": true,
-      "noImplicitAny": true,
-      "useUnknownInCatchVariables": true,
-      "noImplicitReturns": true,
-      "allowUnreachableCode": false,
-      "typeRoots": ["node_modules/@types", "src/@types"],
-  
-      /* Completeness */
-      "skipLibCheck": true
-    },
-    "include": [".", "**/*.ts"],
-    "exclude": ["node_modules"]
-  }
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",
+    "lib": [],
+
+    /* Modules */
+    "module": "CommonJS",
+    "rootDir": "./",
+    "paths": {},
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    /* JavaScript Support */
+    "allowJs": true,
+    "checkJs": true,
+
+    /* Emit */
+    "noEmit": true,
+
+    /* Interop Constraints */
+    "isolatedModules": true /* If this causes issue, remove. */,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "useUnknownInCatchVariables": true,
+    "noImplicitReturns": true,
+    "allowUnreachableCode": false,
+    "typeRoots": ["node_modules/@types", "src/@types"],
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": [".", "**/*.ts"],
+  "exclude": ["node_modules"]
+}

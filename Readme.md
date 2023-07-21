@@ -1,5 +1,4 @@
-lock-your-windows
-============
+# lock-your-windows
 
 Activate the Windows lock screen (Win+L), or check if Windows is currently locked.
 
@@ -12,6 +11,7 @@ Activate the Windows lock screen (Win+L), or check if Windows is currently locke
 - [Unified Windows Platform SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) (tested on Windows 10 22H2)
 
 ## Installation
+
 ```bash
 npm install --save lock-your-windows
 ```
@@ -22,9 +22,9 @@ npm install --save lock-your-windows
 var lockYourWindows = require('lock-your-windows');
 
 var isLocked = lockYourWindows.isLocked();
-console.log("Windows is currently "+(isLocked ? "locked" : "unlocked"));
+console.log('Windows is currently ' + (isLocked ? 'locked' : 'unlocked'));
 
-console.log("Locking Windows...");
+console.log('Locking Windows...');
 lockYourWindows.lock();
 ```
 
