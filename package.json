@@ -1,6 +1,6 @@
 {
   "name": "@iag-garybrown/lock-your-windows",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": "Ben Hutchison <ben@aldaviva.com>",
   "description": "Activate the Windows lock screen (Win+L), or check if Windows is currently locked.",
   "license": "Apache-2.0",
