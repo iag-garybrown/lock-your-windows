@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aldaviva/lock-your-windows.git"
+    "url": "git+https://github.com/iag-garybrown/lock-your-windows.git"
   },
   "main": "src/main/js/index",
   "dependencies": {
@@ -30,7 +30,7 @@
     "bsnk-dev"
   ],
   "bugs": {
-    "url": "https://github.com/Aldaviva/lock-your-windows/issues"
+    "url": "https://github.com/iag-garybrown/lock-your-windows/issues"
   },
-  "homepage": "https://github.com/Aldaviva/lock-your-windows#readme"
+  "homepage": "https://github.com/iag-garybrown/lock-your-windows#readme"
 }
