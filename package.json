@@ -1,32 +1,36 @@
 {
-    "name": "lock-your-windows",
-    "version": "0.0.2",
-    "author": "Ben Hutchison <ben@aldaviva.com>",
-    "description": "Activate the Windows lock screen (Win+L), or check if Windows is currently locked.",
-    "license": "Apache-2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Aldaviva/lock-your-windows"
-    },
-    "main": "src/main/js/index",
-    "dependencies": {
-        "nan": "^2.17.0"
-    },
-    "devDependencies": {
-        "mocha": "^10.2.0"
-    },
-    "scripts": {
-        "install": "node-gyp rebuild || exit 0",
-        "test": "node node_modules/mocha/bin/_mocha src/test/js"
-    },
-    "keywords": [
-        "windows",
-        "lock",
-        "win32"
-    ],
-    "gypfile": true,
-    "contributors": [
-        "VadimKorobka",
-        "bsnk-dev"
-    ]
+  "name": "@iag-garybrown/lock-your-windows",
+  "version": "0.0.2",
+  "author": "Ben Hutchison <ben@aldaviva.com>",
+  "description": "Activate the Windows lock screen (Win+L), or check if Windows is currently locked.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aldaviva/lock-your-windows.git"
+  },
+  "main": "src/main/js/index",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild || exit 0",
+    "test": "node node_modules/mocha/bin/_mocha src/test/js"
+  },
+  "keywords": [
+    "windows",
+    "lock",
+    "win32"
+  ],
+  "gypfile": true,
+  "contributors": [
+    "VadimKorobka",
+    "bsnk-dev"
+  ],
+  "bugs": {
+    "url": "https://github.com/Aldaviva/lock-your-windows/issues"
+  },
+  "homepage": "https://github.com/Aldaviva/lock-your-windows#readme"
 }
